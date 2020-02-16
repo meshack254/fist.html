@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        animation-name: colorchange;
+        animation-duration: 70s;
+        animation-delay: none;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes colorchange {
+        0% {
+          background-color: #aa50d4;
+        }
+
+        9% {
+          background-color: green;
+        }
+
+        15% {
+          background-color: purple;
+        }
+
+        25% {
+          background-color: violet;
+        }
+
+        35% {
+          background-color: #248fff;
+        }
+
+        50% {
+          background-color: crimson;
+        }
+
+        65% {
+          background-color: blue;
+        }
+
+        79% {
+          background-color: lightskyblue;
+        }
+
+        86% {
+          background-color: orange;
+        }
+
+        92% {
+          background-color: grey;
+        }
+
+        100% {
+          background-color: magenta;
+        }
+      }
+
+      div.year {
+        background-color: rgb(0, 60, 1);
+        text-align: center;
+        margin: 0 auto;
+        width: 440px;
+        border-radius: 30px;
+        transform: skew(-5deg);
+        filter: drop-shadow(20px 20px 10px black);
+        /*The filter property works like this
+filter: filter function (w h b c)W is the width, H is the height, B is blur and C is color.
+
+The filter functions are :blue(), brightness(), contrast(), drop-shadow(), grayscale(), hue-rotate(), invert(), opacity(), saturate() and sepia(). */
+
+      }
+
+      p.merry {
+        font-family: cursive;
+        font-weight: 900;
+        font-size: 40px;
+        color: rgb(130, 280, 0);
+        text-align: center;
+      }
+
+      p.christmas {
+        color: rgb(260, 25, 98);
+        font-weight: 900;
+        font-size: 40px;
+        font-family: cursive;
+        text-align: center;
+      }
+
+      p.happy {
+        font-size: 35px;
+        font-style: italic;
+        font-family: cursive;
+        text-align: center;
+      }
+
+      p.scroll {
+        text-shadow: 15 10 15;
+        text-align: center;
+
+      }
+
+      p.graduate {
+        text-align: center;
+        font-family: cursive;
+        font-size: 50px;
+      }
+
+      .btn {}
+
+      .image {
+        height: 700px;
+        width: 500px;
+      }
+
+    </style>
+    <script>
+      alert("Hello everyone")
+
+    </script>
+  </head>
+
+  <body>
+    <div class="year">
+
+      <p class="merry">☃️HAPPY☃️</p>
+      <p class="christmas">❄️New Year❄️</p>
+      <p class="icons">☃️☃️🎄🎄❄️❄️</p>
+    </div>
+
+    <p class="graduate" id="scroll">We wish you the beat as you proceed to university. Ooh how much we will miss you all, you were a part and parcel of this wonderful family.
+
+    </p>
+
+    <p class="scroll"><button type="button" class="btn" onclick='document.getElementById("scroll").innerHTML = "Wishing you Prosperity for your upcoming endeavors"'>Touch me</button>
+      ​</p>
+    ​ <img src="https://omgquotes.com/wp-content/uploads/2017/12/motivational-quotes-keep-moving-forward.jpg" class="image">
+    </p>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.8.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.8.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+  </body>
+  <footer>by Meshack Mutinda</footer>
+
+</html>
